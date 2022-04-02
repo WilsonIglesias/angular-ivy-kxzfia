@@ -1,6 +1,8 @@
 <h2>HOME</h2>
-<p>Páginal inicial</p>
-<P>Nome: Wilson Iglesias Trindade Oliveira</p>
-<p>RA: 0050832011032</p>
+<p>
+Nome: Wilson Iglesias Trindade Oliveira |
+RA: 0050832011032</p>
 <h3>Temporizador</h3>
-{{timer.getCount()}}
+{{timer.getCount()}}s
+<button (click)="timer.start(1000)">Iniciar</button>
+<button (click)="timer.stop()">Parar</button>
